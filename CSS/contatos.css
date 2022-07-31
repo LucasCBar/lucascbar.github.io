@@ -1,0 +1,70 @@
+.contatos {
+  background-color: rgb(49, 49, 49);
+}
+
+.box-contatos {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+}
+
+.mensagem {
+  max-width: 500px;
+  color: rgb(222, 227, 231);
+  font-size: 2rem;
+  text-align: start;
+  padding: 15px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.contatos-links {
+  text-decoration: none;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(222, 227, 231);
+  font-size: 2rem;
+  text-align: end;
+  gap: 30px;
+  justify-content: center;
+}
+.contatos-links a {
+  text-decoration: none;
+  color: rgb(222, 227, 231);
+}
+
+.contatos-links a:hover {
+  color: rgb(132 147 235);
+}
+
+@media (max-width: 800px) {
+  .box-contatos {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .contatos-links {
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .mensagem {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .contatos-links {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,46 @@
+.linha-do-tempo {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 40px;
+}
+
+.linha-do-tempo-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1.3rem;
+  color: aliceblue;
+  background-color: rgb(99, 99, 99);
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.linha-do-tempo-item h3 {
+  font-size: 1.6rem;
+  color: aliceblue;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.local {
+  font-size: 1.6rem;
+  color: aliceblue;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.titulo-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo-linha-tempo {
+  margin-top: 80px;
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
+  font-size: 2.5em;
+}

@@ -1,0 +1,41 @@
+.habilidades {
+  height: auto;
+}
+.habilidades h2 {
+  margin: 0px;
+}
+
+.habilidades-card {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.habilidades-card-item {
+  max-width: 230px;
+  max-height: 230px;
+  min-width: 230px;
+  min-height: 230px;
+  padding: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(57, 73, 165);
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.habilidades-card-item h3 {
+  color: aliceblue;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 1px rgb(0, 0, 0);
+}
+.habilidades-card-item p {
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+}
