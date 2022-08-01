@@ -20,6 +20,11 @@
   text-align: center;
   margin: 0 auto;
 }
+@media (max-width: 641px) {
+  .linha-do-tempo-item {
+    min-width: 0px;
+  }
+}
 
 .linha-do-tempo-item h3 {
   font-size: 1.6rem;
