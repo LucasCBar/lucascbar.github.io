@@ -1,6 +1,7 @@
 .habilidades {
   height: auto;
 }
+
 .habilidades h2 {
   margin: 0px;
 }
@@ -15,27 +16,30 @@
   align-items: center;
   margin-bottom: 40px;
 }
+
 .habilidades-card-item {
-  max-width: 230px;
-  max-height: 230px;
+  max-width: auto;
+  max-height: auto;
   min-width: 230px;
   min-height: 230px;
-  padding: 10px;
+  padding: 20px;
   gap: 10px;
   display: flex;
   flex-direction: column;
-  background-color: rgb(57, 73, 165);
+  background-color: rgb(96, 42, 203);
   border-radius: 30px;
   justify-content: center;
-  align-items: center;
-  text-align: center;
 }
+
 .habilidades-card-item h3 {
+  align-items: center;
   color: aliceblue;
   font-size: 1.5em;
-  text-shadow: 2px 2px 1px rgb(0, 0, 0);
+  text-shadow: 2px 1px 1px rgb(0, 0, 0);
 }
+
 .habilidades-card-item p {
+  padding: 0px 20px;
   color: rgb(255, 255, 255);
   font-size: 1.2em;
 }
