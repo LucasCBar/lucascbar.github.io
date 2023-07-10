@@ -3,8 +3,8 @@
 @import "./introducao.css";
 @import "./sobremim.css";
 @import "./linhadotempo.css";
-@import "/lucascbar.github.io/CSS/certificacoes.css";
+@import "./certificacoes.css";
 @import "./habilidades.css";
-@import "/lucascbar.github.io/CSS/projetos.css";
-@import "/lucascbar.github.io/CSS/contatos.css";
-@import "/lucascbar.github.io/CSS/rodape.css";
+@import "./projetos.css";
+@import "./contatos.css";
+@import "./rodape.css";
